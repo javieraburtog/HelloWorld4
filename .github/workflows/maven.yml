@@ -30,6 +30,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
         
-    - name: Step 3 - Build with Maven
+    - name: Step 3 - Build with Maven a
       run: mvn -B package --file pom.xml
 
